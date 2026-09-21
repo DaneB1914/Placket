@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">Placket README banner</title>
+  <desc id="desc">A quiet luxury style banner for Placket with a monogram P, the word Placket, the tagline Your wardrobe, understood, and subtle garment-inspired design elements.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f5ef"/>
+      <stop offset="100%" stop-color="#efebe3"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .serif { font-family: Georgia, 'Times New Roman', serif; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+      .charcoal { fill: #222222; }
+      .stone { fill: #5c5a55; }
+      .olive { fill: #4d5b47; }
+      .olive-dark { fill: #3e4939; }
+      .line { stroke: #b7ab98; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1600" height="500" rx="24" fill="url(#bg)"/>
+
+  <!-- Very subtle soft fabric-like waves -->
+  <path d="M0,85 C220,40 360,120 560,90 C780,55 960,10 1220,65 C1370,95 1490,100 1600,70 L1600,0 L0,0 Z"
+        fill="#ffffff" opacity="0.14"/>
+  <path d="M0,500 L0,355 C155,325 305,395 470,372 C690,340 875,282 1110,330 C1280,365 1455,360 1600,318 L1600,500 Z"
+        fill="#ffffff" opacity="0.12"/>
+
+  <!-- Left monogram -->
+  <text x="125" y="265" class="serif charcoal" font-size="196" letter-spacing="1">P</text>
+
+  <!-- Placket line and buttons -->
+  <line x1="315" y1="112" x2="315" y2="388" class="line"/>
+  <g filter="url(#shadow)">
+    <circle cx="315" cy="175" r="15" fill="#f5f0e7" stroke="#cbbda7" stroke-width="2"/>
+    <circle cx="315" cy="175" r="3.2" fill="#ad9b80"/>
+    <circle cx="309" cy="169" r="2.4" fill="#ad9b80"/>
+    <circle cx="321" cy="169" r="2.4" fill="#ad9b80"/>
+    <circle cx="309" cy="181" r="2.4" fill="#ad9b80"/>
+    <circle cx="321" cy="181" r="2.4" fill="#ad9b80"/>
+
+    <circle cx="315" cy="272" r="15" fill="#f5f0e7" stroke="#cbbda7" stroke-width="2"/>
+    <circle cx="315" cy="272" r="3.2" fill="#ad9b80"/>
+    <circle cx="309" cy="266" r="2.4" fill="#ad9b80"/>
+    <circle cx="321" cy="266" r="2.4" fill="#ad9b80"/>
+    <circle cx="309" cy="278" r="2.4" fill="#ad9b80"/>
+    <circle cx="321" cy="278" r="2.4" fill="#ad9b80"/>
+  </g>
+
+  <!-- Brand name -->
+  <text x="430" y="226" class="serif charcoal" font-size="106" letter-spacing="18">PLACKET</text>
+  <text x="430" y="325" class="serif stone" font-size="52" font-weight="400">Your wardrobe, understood.</text>
+
+  <!-- Subtle right-side shirt / jacket composition -->
+  <g opacity="0.98">
+    <!-- olive jacket behind -->
+    <path d="M1340,0 L1600,0 L1600,500 L1480,500 C1456,435 1440,360 1438,290 C1435,180 1418,85 1340,0 Z"
+          fill="#48523f"/>
+
+    <!-- shirt body -->
+    <path d="M1248,0 L1474,0 C1450,34 1441,58 1438,102 C1432,180 1444,255 1450,336 C1457,425 1456,468 1472,500 L1172,500 C1196,420 1198,338 1192,240 C1188,168 1189,90 1248,0 Z"
+          fill="#f2ede4"/>
+
+    <!-- shirt collar -->
+    <path d="M1240,0 L1324,0 C1302,22 1292,37 1288,56 C1285,71 1288,92 1296,113 L1216,113 C1231,83 1238,48 1240,0 Z"
+          fill="#efe8dc"/>
+    <path d="M1315,0 L1394,0 C1366,28 1355,45 1350,63 C1344,82 1348,96 1358,113 L1282,113 C1299,92 1304,75 1306,52 C1308,34 1310,18 1315,0 Z"
+          fill="#f6f2ea"/>
+
+    <!-- placket on shirt -->
+    <rect x="1350" y="105" width="52" height="355" fill="#eee7db"/>
+    <line x1="1376" y1="107" x2="1376" y2="457" stroke="#d0c3b0" stroke-width="2"/>
+
+    <!-- buttons on shirt -->
+    <g filter="url(#shadow)">
+      <g transform="translate(1376,152)">
+        <circle r="16" fill="#f4eee5" stroke="#cdbda9" stroke-width="2"/>
+        <circle r="3.2" fill="#ae9a7e"/>
+        <circle cx="-6" cy="-6" r="2.4" fill="#ae9a7e"/>
+        <circle cx="6" cy="-6" r="2.4" fill="#ae9a7e"/>
+        <circle cx="-6" cy="6" r="2.4" fill="#ae9a7e"/>
+        <circle cx="6" cy="6" r="2.4" fill="#ae9a7e"/>
+      </g>
+      <g transform="translate(1376,270)">
+        <circle r="16" fill="#f4eee5" stroke="#cdbda9" stroke-width="2"/>
+        <circle r="3.2" fill="#ae9a7e"/>
+        <circle cx="-6" cy="-6" r="2.4" fill="#ae9a7e"/>
+        <circle cx="6" cy="-6" r="2.4" fill="#ae9a7e"/>
+        <circle cx="-6" cy="6" r="2.4" fill="#ae9a7e"/>
+        <circle cx="6" cy="6" r="2.4" fill="#ae9a7e"/>
+      </g>
+      <g transform="translate(1376,388)">
+        <circle r="16" fill="#f4eee5" stroke="#cdbda9" stroke-width="2"/>
+        <circle r="3.2" fill="#ae9a7e"/>
+        <circle cx="-6" cy="-6" r="2.4" fill="#ae9a7e"/>
+        <circle cx="6" cy="-6" r="2.4" fill="#ae9a7e"/>
+        <circle cx="-6" cy="6" r="2.4" fill="#ae9a7e"/>
+        <circle cx="6" cy="6" r="2.4" fill="#ae9a7e"/>
+      </g>
+    </g>
+
+    <!-- seam details -->
+    <line x1="1211" y1="108" x2="1188" y2="500" stroke="#ddd3c3" stroke-width="2"/>
+    <line x1="1438" y1="102" x2="1468" y2="500" stroke="#d7cab7" stroke-width="2" opacity="0.8"/>
+  </g>
+
+  <!-- lower-left olive leaves -->
+  <g opacity="0.96">
+    <path d="M0,500 L0,410 C18,390 34,374 48,360 C60,372 69,394 74,423 C52,448 28,475 0,500 Z" fill="#4f5b46"/>
+    <path d="M33,500 C48,472 79,437 122,414 C146,401 171,396 198,398 C191,427 170,452 136,468 C101,483 66,493 33,500 Z" fill="#48533f"/>
+    <path d="M53,500 C88,468 134,433 190,416 C232,404 271,406 312,420 C291,450 249,473 196,484 C144,495 95,500 53,500 Z" fill="#58644f"/>
+    <path d="M20,454 C60,431 118,419 182,424" stroke="#c7cfbf" stroke-width="2" opacity="0.35" fill="none"/>
+    <path d="M56,473 C103,450 175,433 263,438" stroke="#c7cfbf" stroke-width="2" opacity="0.35" fill="none"/>
+    <path d="M3,432 C25,410 42,388 54,364" stroke="#c7cfbf" stroke-width="2" opacity="0.35" fill="none"/>
+  </g>
+</svg>
