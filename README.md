@@ -1,4 +1,12 @@
-# Placket
+<p align="center">
+  <img src="./assets/placket_banner.svg" alt="Placket — Your wardrobe, understood." width="100%">
+</p>
+
+<p align="center">
+  <strong>A personal fashion app that learns your wardrobe, style preferences, fit history, and shopping habits.</strong>
+</p>
+
+## About
 
 Placket is a personal fashion app that learns your wardrobe, style preferences, fit history, and shopping habits to help you build better outfits and make smarter clothing purchases.
 
