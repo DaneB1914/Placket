@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/placket_banner.svg" alt="Placket — Your wardrobe, understood." width="100%">
+  <img src="./placket_banner.svg" alt="Placket — Your wardrobe, understood." width="100%">
 </p>
 
 <p align="center">
